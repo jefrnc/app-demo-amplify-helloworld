@@ -1,0 +1,41 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-appdemoamplifyhellow-dev-02120-authRole",
+      "UnauthRoleArn": "arn:aws:iam::831944504425:role/amplify-appdemoamplifyhellow-dev-02120-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::831944504425:role/amplify-appdemoamplifyhellow-dev-02120-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-appdemoamplifyhellow-dev-02120-deployment",
+      "UnauthRoleName": "amplify-appdemoamplifyhellow-dev-02120-unauthRole",
+      "StackName": "amplify-appdemoamplifyhellow-dev-02120",
+      "StackId": "arn:aws:cloudformation:us-east-1:831944504425:stack/amplify-appdemoamplifyhellow-dev-02120/6ebf7a10-da73-11ed-b91b-0af3233c316f",
+      "AmplifyAppId": "dnflfi1rfuaw5",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-appdemoamplifyhellow-dev-02120-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "function": {
+        "CustomerHanddler": {
+          "deploymentBucketName": "amplify-appdemoamplifyhellow-dev-02120-deployment",
+          "s3Key": "amplify-builds/CustomerHanddler-376a6f4f46556c795871-build.zip"
+        },
+        "appdemoamplifyhellow67a61f96": {
+          "deploymentBucketName": "amplify-appdemoamplifyhellow-dev-02120-deployment",
+          "s3Key": "amplify-builds/appdemoamplifyhellow67a61f96-574a2f7133746d733672-build.zip"
+        }
+      },
+      "auth": {
+        "appdemoamplifyhellow": {}
+      },
+      "api": {
+        "apib79ac1fe": {},
+        "api9ee36052": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "dnflfi1rfuaw5",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}

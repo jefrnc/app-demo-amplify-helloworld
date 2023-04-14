@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "paths": {
+    "/customers/{customerId}": {
+      "name": "/customers/{customerId}",
+      "lambdaFunction": "CustomerHanddler",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}

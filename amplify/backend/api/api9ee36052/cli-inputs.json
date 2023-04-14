@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/clients/{clientId}": {
+      "name": "/clients/{clientId}",
+      "lambdaFunction": "appdemoamplifyhellow67a61f96",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
